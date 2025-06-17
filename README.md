@@ -1,7 +1,7 @@
-# Two-Stage OTA Design (TSMC180nm CMOS, LTspice)  
-**Author:** Spandan (ID: 230102108)
+# Course Project EE206: Analog Circuits {Two-Stage OTA Design (TSMC180nm CMOS, LTspice)} 
+**Author:** Pranav Vishal Deshmukh (ID: 230102073)
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Design a two-stage operational transconductance amplifier (OTA) using **TSMC 180nm technology** with the following specifications:
 
@@ -20,7 +20,7 @@ All simulations are performed in **LTspice**, and manual calculations were used 
 - `2_stage_ota_spandan_230102108_open_loop_2.asc`: Open-loop OTA schematic (DC gain ≈ 2360)
 - `2_stage_ota_spandan_230102108_closed_loop.asc`: Closed-loop OTA schematic (non-inverting amplifier, gain ≈ 2)
 
-### 📑 Documentation
+### Documentation
 - `230102108_Spandan_OTA.pdf`: Full report containing:
   - Design procedure
   - Hand calculations for MOSFET sizing
@@ -29,7 +29,7 @@ All simulations are performed in **LTspice**, and manual calculations were used 
 
 - `Assignment_OTA_design.word`: Original problem statement (assignment brief)
 
-### 🖼️ Screenshots (Located in `screenshots/`)
+### Screenshots (Located in `screenshots/`)
 - `Bandwidth 1`: Bandwidth plot from AC analysis
 - `DC_op`, `DC_op_2`: DC operating points of different nodes
 - `Log_file`, `Log_file_2`: LTspice simulation logs
@@ -39,14 +39,14 @@ All simulations are performed in **LTspice**, and manual calculations were used 
 
 ---
 
-## 🔧 Technology & Tools
+## Technology & Tools
 - **LTspice** for simulation
 - **TSMC 180nm CMOS** design assumptions
 - **Analog CMOS Design** principles (manual sizing, compensation)
 
 ---
 
-## 📊 Key Design Highlights
+## Key Design Highlights
 - ✅ **Open-loop gain**: ~2360 (≈ 67.4 dB)
 - ✅ **Closed-loop gain**: ≈ 2 (non-inverting)
 - ✅ **Phase margin**: ~60°
